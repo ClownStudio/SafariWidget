@@ -1,0 +1,606 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		42404F612589A7EF00DC02E0 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 42404F602589A7EF00DC02E0 /* AppDelegate.m */; };
+		42404F642589A7EF00DC02E0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 42404F622589A7EF00DC02E0 /* Main.storyboard */; };
+		42404F672589A7EF00DC02E0 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 42404F662589A7EF00DC02E0 /* ViewController.m */; };
+		42404F692589A7F200DC02E0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 42404F682589A7F200DC02E0 /* Assets.xcassets */; };
+		42404F6C2589A7F200DC02E0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 42404F6B2589A7F200DC02E0 /* main.m */; };
+		42404F722589A7F200DC02E0 /* IndustrialBankSafariWidget Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 42404F712589A7F200DC02E0 /* IndustrialBankSafariWidget Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		42404F772589A7F200DC02E0 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 42404F762589A7F200DC02E0 /* Cocoa.framework */; };
+		42404F7B2589A7F200DC02E0 /* SafariExtensionHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 42404F7A2589A7F200DC02E0 /* SafariExtensionHandler.m */; };
+		42404F7E2589A7F200DC02E0 /* SafariExtensionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 42404F7D2589A7F200DC02E0 /* SafariExtensionViewController.m */; };
+		42404F812589A7F200DC02E0 /* script.js in Resources */ = {isa = PBXBuildFile; fileRef = 42404F802589A7F200DC02E0 /* script.js */; };
+		42404F832589A7F200DC02E0 /* ToolbarItemIcon.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 42404F822589A7F200DC02E0 /* ToolbarItemIcon.pdf */; };
+		42404F862589A7F200DC02E0 /* SafariExtensionViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 42404F842589A7F200DC02E0 /* SafariExtensionViewController.xib */; };
+		42404F9C2589B69500DC02E0 /* SecurityUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 42404F9B2589B69500DC02E0 /* SecurityUtil.m */; };
+		42405131258B56FE00DC02E0 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 42405130258B56FE00DC02E0 /* Security.framework */; };
+		4240516D258B5F1A00DC02E0 /* CCMCryptor.m in Sources */ = {isa = PBXBuildFile; fileRef = 42405160258B5F1A00DC02E0 /* CCMCryptor.m */; };
+		4240516E258B5F1A00DC02E0 /* CSSMRSACryptor.m in Sources */ = {isa = PBXBuildFile; fileRef = 42405163258B5F1A00DC02E0 /* CSSMRSACryptor.m */; };
+		4240516F258B5F1A00DC02E0 /* CCMKeyLoader.m in Sources */ = {isa = PBXBuildFile; fileRef = 42405166258B5F1A00DC02E0 /* CCMKeyLoader.m */; };
+		42405170258B5F1A00DC02E0 /* CCMPrivateKey.m in Sources */ = {isa = PBXBuildFile; fileRef = 42405167258B5F1A00DC02E0 /* CCMPrivateKey.m */; };
+		42405171258B5F1A00DC02E0 /* CCMPublicKey.m in Sources */ = {isa = PBXBuildFile; fileRef = 42405169258B5F1A00DC02E0 /* CCMPublicKey.m */; };
+		42405172258B5F1A00DC02E0 /* CCMBase64.m in Sources */ = {isa = PBXBuildFile; fileRef = 4240516C258B5F1A00DC02E0 /* CCMBase64.m */; };
+		42405178258B5F5900DC02E0 /* rsa_public_key.pem in Resources */ = {isa = PBXBuildFile; fileRef = 42405177258B5F5900DC02E0 /* rsa_public_key.pem */; };
+		4240517D258B600D00DC02E0 /* CCMCryptorTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 4240517B258B600D00DC02E0 /* CCMCryptorTest.m */; };
+		42405185258B60BC00DC02E0 /* rsa_private_key.pem in Resources */ = {isa = PBXBuildFile; fileRef = 42405184258B60BC00DC02E0 /* rsa_private_key.pem */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		42404F732589A7F200DC02E0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 42404F532589A7EF00DC02E0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 42404F702589A7F200DC02E0;
+			remoteInfo = "IndustrialBankSafariWidget Extension";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		42404F8E2589A7F200DC02E0 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				42404F722589A7F200DC02E0 /* IndustrialBankSafariWidget Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		42404F5B2589A7EF00DC02E0 /* IndustrialBankSafariWidget.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IndustrialBankSafariWidget.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		42404F5E2589A7EF00DC02E0 /* IndustrialBankSafariWidget.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = IndustrialBankSafariWidget.entitlements; sourceTree = "<group>"; };
+		42404F5F2589A7EF00DC02E0 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		42404F602589A7EF00DC02E0 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		42404F632589A7EF00DC02E0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		42404F652589A7EF00DC02E0 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		42404F662589A7EF00DC02E0 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		42404F682589A7F200DC02E0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		42404F6A2589A7F200DC02E0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		42404F6B2589A7F200DC02E0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		42404F712589A7F200DC02E0 /* IndustrialBankSafariWidget Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "IndustrialBankSafariWidget Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		42404F762589A7F200DC02E0 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		42404F792589A7F200DC02E0 /* SafariExtensionHandler.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SafariExtensionHandler.h; sourceTree = "<group>"; };
+		42404F7A2589A7F200DC02E0 /* SafariExtensionHandler.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SafariExtensionHandler.m; sourceTree = "<group>"; };
+		42404F7C2589A7F200DC02E0 /* SafariExtensionViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SafariExtensionViewController.h; sourceTree = "<group>"; };
+		42404F7D2589A7F200DC02E0 /* SafariExtensionViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SafariExtensionViewController.m; sourceTree = "<group>"; };
+		42404F802589A7F200DC02E0 /* script.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = script.js; sourceTree = "<group>"; };
+		42404F822589A7F200DC02E0 /* ToolbarItemIcon.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = ToolbarItemIcon.pdf; sourceTree = "<group>"; };
+		42404F852589A7F200DC02E0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/SafariExtensionViewController.xib; sourceTree = "<group>"; };
+		42404F872589A7F200DC02E0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		42404F882589A7F200DC02E0 /* IndustrialBankSafariWidget_Extension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = IndustrialBankSafariWidget_Extension.entitlements; sourceTree = "<group>"; };
+		42404F9A2589B69500DC02E0 /* SecurityUtil.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SecurityUtil.h; sourceTree = "<group>"; };
+		42404F9B2589B69500DC02E0 /* SecurityUtil.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecurityUtil.m; sourceTree = "<group>"; };
+		42405130258B56FE00DC02E0 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		4240515F258B5F1A00DC02E0 /* CCMPublicKey_internal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCMPublicKey_internal.h; sourceTree = "<group>"; };
+		42405160258B5F1A00DC02E0 /* CCMCryptor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCMCryptor.m; sourceTree = "<group>"; };
+		42405161258B5F1A00DC02E0 /* CCMPrivateKey.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCMPrivateKey.h; sourceTree = "<group>"; };
+		42405162258B5F1A00DC02E0 /* CCMKeyLoader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCMKeyLoader.h; sourceTree = "<group>"; };
+		42405163258B5F1A00DC02E0 /* CSSMRSACryptor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CSSMRSACryptor.m; sourceTree = "<group>"; };
+		42405164258B5F1A00DC02E0 /* CCMPublicKey.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCMPublicKey.h; sourceTree = "<group>"; };
+		42405165258B5F1A00DC02E0 /* CCMBase64.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCMBase64.h; sourceTree = "<group>"; };
+		42405166258B5F1A00DC02E0 /* CCMKeyLoader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCMKeyLoader.m; sourceTree = "<group>"; };
+		42405167258B5F1A00DC02E0 /* CCMPrivateKey.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCMPrivateKey.m; sourceTree = "<group>"; };
+		42405168258B5F1A00DC02E0 /* CCMCryptor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCMCryptor.h; sourceTree = "<group>"; };
+		42405169258B5F1A00DC02E0 /* CCMPublicKey.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCMPublicKey.m; sourceTree = "<group>"; };
+		4240516A258B5F1A00DC02E0 /* CSSMRSACryptor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CSSMRSACryptor.h; sourceTree = "<group>"; };
+		4240516B258B5F1A00DC02E0 /* CCMPrivateKey_internal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCMPrivateKey_internal.h; sourceTree = "<group>"; };
+		4240516C258B5F1A00DC02E0 /* CCMBase64.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCMBase64.m; sourceTree = "<group>"; };
+		42405177258B5F5900DC02E0 /* rsa_public_key.pem */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = rsa_public_key.pem; sourceTree = "<group>"; };
+		4240517B258B600D00DC02E0 /* CCMCryptorTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CCMCryptorTest.m; path = "../../../Downloads/RSA-develop/RSAForMac/RSADemo/CCMCryptorTest.m"; sourceTree = "<group>"; };
+		4240517C258B600D00DC02E0 /* CCMCryptorTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CCMCryptorTest.h; path = "../../../Downloads/RSA-develop/RSAForMac/RSADemo/CCMCryptorTest.h"; sourceTree = "<group>"; };
+		42405184258B60BC00DC02E0 /* rsa_private_key.pem */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = rsa_private_key.pem; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		42404F582589A7EF00DC02E0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				42405131258B56FE00DC02E0 /* Security.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		42404F6E2589A7F200DC02E0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				42404F772589A7F200DC02E0 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		42404F522589A7EF00DC02E0 = {
+			isa = PBXGroup;
+			children = (
+				42404F5D2589A7EF00DC02E0 /* IndustrialBankSafariWidget */,
+				42404F782589A7F200DC02E0 /* IndustrialBankSafariWidget Extension */,
+				42404F752589A7F200DC02E0 /* Frameworks */,
+				42404F5C2589A7EF00DC02E0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		42404F5C2589A7EF00DC02E0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				42404F5B2589A7EF00DC02E0 /* IndustrialBankSafariWidget.app */,
+				42404F712589A7F200DC02E0 /* IndustrialBankSafariWidget Extension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		42404F5D2589A7EF00DC02E0 /* IndustrialBankSafariWidget */ = {
+			isa = PBXGroup;
+			children = (
+				42404F5E2589A7EF00DC02E0 /* IndustrialBankSafariWidget.entitlements */,
+				42404F5F2589A7EF00DC02E0 /* AppDelegate.h */,
+				42404F602589A7EF00DC02E0 /* AppDelegate.m */,
+				42404F622589A7EF00DC02E0 /* Main.storyboard */,
+				42404F652589A7EF00DC02E0 /* ViewController.h */,
+				42404F662589A7EF00DC02E0 /* ViewController.m */,
+				42404F9A2589B69500DC02E0 /* SecurityUtil.h */,
+				42404F9B2589B69500DC02E0 /* SecurityUtil.m */,
+				4240517C258B600D00DC02E0 /* CCMCryptorTest.h */,
+				4240517B258B600D00DC02E0 /* CCMCryptorTest.m */,
+				42405184258B60BC00DC02E0 /* rsa_private_key.pem */,
+				42405177258B5F5900DC02E0 /* rsa_public_key.pem */,
+				4240515E258B5F1A00DC02E0 /* CocoaCryptoMac */,
+				42404F682589A7F200DC02E0 /* Assets.xcassets */,
+				42404F6A2589A7F200DC02E0 /* Info.plist */,
+				42404F6B2589A7F200DC02E0 /* main.m */,
+			);
+			path = IndustrialBankSafariWidget;
+			sourceTree = "<group>";
+		};
+		42404F752589A7F200DC02E0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				42405130258B56FE00DC02E0 /* Security.framework */,
+				42404F762589A7F200DC02E0 /* Cocoa.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		42404F782589A7F200DC02E0 /* IndustrialBankSafariWidget Extension */ = {
+			isa = PBXGroup;
+			children = (
+				42404F792589A7F200DC02E0 /* SafariExtensionHandler.h */,
+				42404F7A2589A7F200DC02E0 /* SafariExtensionHandler.m */,
+				42404F7C2589A7F200DC02E0 /* SafariExtensionViewController.h */,
+				42404F7D2589A7F200DC02E0 /* SafariExtensionViewController.m */,
+				42404F842589A7F200DC02E0 /* SafariExtensionViewController.xib */,
+				42404F872589A7F200DC02E0 /* Info.plist */,
+				42404F882589A7F200DC02E0 /* IndustrialBankSafariWidget_Extension.entitlements */,
+				42404F7F2589A7F200DC02E0 /* Resources */,
+			);
+			path = "IndustrialBankSafariWidget Extension";
+			sourceTree = "<group>";
+		};
+		42404F7F2589A7F200DC02E0 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				42404F802589A7F200DC02E0 /* script.js */,
+				42404F822589A7F200DC02E0 /* ToolbarItemIcon.pdf */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		4240515E258B5F1A00DC02E0 /* CocoaCryptoMac */ = {
+			isa = PBXGroup;
+			children = (
+				42405165258B5F1A00DC02E0 /* CCMBase64.h */,
+				4240516C258B5F1A00DC02E0 /* CCMBase64.m */,
+				42405168258B5F1A00DC02E0 /* CCMCryptor.h */,
+				42405160258B5F1A00DC02E0 /* CCMCryptor.m */,
+				42405162258B5F1A00DC02E0 /* CCMKeyLoader.h */,
+				42405166258B5F1A00DC02E0 /* CCMKeyLoader.m */,
+				4240516B258B5F1A00DC02E0 /* CCMPrivateKey_internal.h */,
+				42405161258B5F1A00DC02E0 /* CCMPrivateKey.h */,
+				42405167258B5F1A00DC02E0 /* CCMPrivateKey.m */,
+				4240515F258B5F1A00DC02E0 /* CCMPublicKey_internal.h */,
+				42405164258B5F1A00DC02E0 /* CCMPublicKey.h */,
+				42405169258B5F1A00DC02E0 /* CCMPublicKey.m */,
+				4240516A258B5F1A00DC02E0 /* CSSMRSACryptor.h */,
+				42405163258B5F1A00DC02E0 /* CSSMRSACryptor.m */,
+			);
+			path = CocoaCryptoMac;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		42404F5A2589A7EF00DC02E0 /* IndustrialBankSafariWidget */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 42404F8F2589A7F200DC02E0 /* Build configuration list for PBXNativeTarget "IndustrialBankSafariWidget" */;
+			buildPhases = (
+				42404F572589A7EF00DC02E0 /* Sources */,
+				42404F582589A7EF00DC02E0 /* Frameworks */,
+				42404F592589A7EF00DC02E0 /* Resources */,
+				42404F8E2589A7F200DC02E0 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				42404F742589A7F200DC02E0 /* PBXTargetDependency */,
+			);
+			name = IndustrialBankSafariWidget;
+			productName = IndustrialBankSafariWidget;
+			productReference = 42404F5B2589A7EF00DC02E0 /* IndustrialBankSafariWidget.app */;
+			productType = "com.apple.product-type.application";
+		};
+		42404F702589A7F200DC02E0 /* IndustrialBankSafariWidget Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 42404F8B2589A7F200DC02E0 /* Build configuration list for PBXNativeTarget "IndustrialBankSafariWidget Extension" */;
+			buildPhases = (
+				42404F6D2589A7F200DC02E0 /* Sources */,
+				42404F6E2589A7F200DC02E0 /* Frameworks */,
+				42404F6F2589A7F200DC02E0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "IndustrialBankSafariWidget Extension";
+			productName = "IndustrialBankSafariWidget Extension";
+			productReference = 42404F712589A7F200DC02E0 /* IndustrialBankSafariWidget Extension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		42404F532589A7EF00DC02E0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1220;
+				TargetAttributes = {
+					42404F5A2589A7EF00DC02E0 = {
+						CreatedOnToolsVersion = 12.2;
+					};
+					42404F702589A7F200DC02E0 = {
+						CreatedOnToolsVersion = 12.2;
+					};
+				};
+			};
+			buildConfigurationList = 42404F562589A7EF00DC02E0 /* Build configuration list for PBXProject "IndustrialBankSafariWidget" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 42404F522589A7EF00DC02E0;
+			productRefGroup = 42404F5C2589A7EF00DC02E0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				42404F5A2589A7EF00DC02E0 /* IndustrialBankSafariWidget */,
+				42404F702589A7F200DC02E0 /* IndustrialBankSafariWidget Extension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		42404F592589A7EF00DC02E0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				42405185258B60BC00DC02E0 /* rsa_private_key.pem in Resources */,
+				42405178258B5F5900DC02E0 /* rsa_public_key.pem in Resources */,
+				42404F692589A7F200DC02E0 /* Assets.xcassets in Resources */,
+				42404F642589A7EF00DC02E0 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		42404F6F2589A7F200DC02E0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				42404F862589A7F200DC02E0 /* SafariExtensionViewController.xib in Resources */,
+				42404F832589A7F200DC02E0 /* ToolbarItemIcon.pdf in Resources */,
+				42404F812589A7F200DC02E0 /* script.js in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		42404F572589A7EF00DC02E0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4240516F258B5F1A00DC02E0 /* CCMKeyLoader.m in Sources */,
+				42405170258B5F1A00DC02E0 /* CCMPrivateKey.m in Sources */,
+				42405172258B5F1A00DC02E0 /* CCMBase64.m in Sources */,
+				42404F672589A7EF00DC02E0 /* ViewController.m in Sources */,
+				42404F6C2589A7F200DC02E0 /* main.m in Sources */,
+				42404F612589A7EF00DC02E0 /* AppDelegate.m in Sources */,
+				4240516D258B5F1A00DC02E0 /* CCMCryptor.m in Sources */,
+				4240516E258B5F1A00DC02E0 /* CSSMRSACryptor.m in Sources */,
+				42404F9C2589B69500DC02E0 /* SecurityUtil.m in Sources */,
+				42405171258B5F1A00DC02E0 /* CCMPublicKey.m in Sources */,
+				4240517D258B600D00DC02E0 /* CCMCryptorTest.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		42404F6D2589A7F200DC02E0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				42404F7E2589A7F200DC02E0 /* SafariExtensionViewController.m in Sources */,
+				42404F7B2589A7F200DC02E0 /* SafariExtensionHandler.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		42404F742589A7F200DC02E0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 42404F702589A7F200DC02E0 /* IndustrialBankSafariWidget Extension */;
+			targetProxy = 42404F732589A7F200DC02E0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		42404F622589A7EF00DC02E0 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				42404F632589A7EF00DC02E0 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		42404F842589A7F200DC02E0 /* SafariExtensionViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				42404F852589A7F200DC02E0 /* Base */,
+			);
+			name = SafariExtensionViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		42404F892589A7F200DC02E0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		42404F8A2589A7F200DC02E0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		42404F8C2589A7F200DC02E0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "IndustrialBankSafariWidget Extension/IndustrialBankSafariWidget_Extension.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = D38C434CHM;
+				ENABLE_HARDENED_RUNTIME = YES;
+				INFOPLIST_FILE = "IndustrialBankSafariWidget Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				PRODUCT_BUNDLE_IDENTIFIER = com.JamStudio.IndustrialBankSafariWidget.Extension;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		42404F8D2589A7F200DC02E0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "IndustrialBankSafariWidget Extension/IndustrialBankSafariWidget_Extension.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = D38C434CHM;
+				ENABLE_HARDENED_RUNTIME = YES;
+				INFOPLIST_FILE = "IndustrialBankSafariWidget Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				PRODUCT_BUNDLE_IDENTIFIER = com.JamStudio.IndustrialBankSafariWidget.Extension;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		42404F902589A7F200DC02E0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = IndustrialBankSafariWidget/IndustrialBankSafariWidget.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = D38C434CHM;
+				ENABLE_HARDENED_RUNTIME = YES;
+				HEADER_SEARCH_PATHS = "";
+				INFOPLIST_FILE = IndustrialBankSafariWidget/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = "$(inherited)";
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				PRODUCT_BUNDLE_IDENTIFIER = com.JamStudio.IndustrialBankSafariWidget;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		42404F912589A7F200DC02E0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = IndustrialBankSafariWidget/IndustrialBankSafariWidget.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = D38C434CHM;
+				ENABLE_HARDENED_RUNTIME = YES;
+				HEADER_SEARCH_PATHS = "";
+				INFOPLIST_FILE = IndustrialBankSafariWidget/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = "$(inherited)";
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				PRODUCT_BUNDLE_IDENTIFIER = com.JamStudio.IndustrialBankSafariWidget;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		42404F562589A7EF00DC02E0 /* Build configuration list for PBXProject "IndustrialBankSafariWidget" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				42404F892589A7F200DC02E0 /* Debug */,
+				42404F8A2589A7F200DC02E0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		42404F8B2589A7F200DC02E0 /* Build configuration list for PBXNativeTarget "IndustrialBankSafariWidget Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				42404F8C2589A7F200DC02E0 /* Debug */,
+				42404F8D2589A7F200DC02E0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		42404F8F2589A7F200DC02E0 /* Build configuration list for PBXNativeTarget "IndustrialBankSafariWidget" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				42404F902589A7F200DC02E0 /* Debug */,
+				42404F912589A7F200DC02E0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 42404F532589A7EF00DC02E0 /* Project object */;
+}
